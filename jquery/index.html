@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <form autocomplete="off">
+                <div class="form-group">
+                    <label for="user"> Username</label><br>
+                    <input type="text" name="username" id="username" class="form-input">
+                    <h5 id="usercheck" class="error" ></h5>
+                </div>
+                <div class="form-group">
+                    <label for="user">Email</label><br>
+                    <input type="email" name="email" id="email" class="form-input">
+                    <h5 class="error" id="emailcheck"></h5>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" class="form-input">
+                    <h5 class="error" id="passcheck"></h5>
+                 </div>
+                 <button type="button" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
